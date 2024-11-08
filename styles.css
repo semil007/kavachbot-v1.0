@@ -1,0 +1,66 @@
+/* styles.css */
+
+/* General Styles */
+body {
+    background-color: #f5f5f5;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    color: #4B8BBE;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #333333;
+}
+
+/* Image Styling */
+img {
+    border-radius: 10px;
+}
+
+/* Button Styling */
+.stButton>button {
+    background-color: #4B8BBE;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.stButton>button:hover {
+    background-color: #357ABD;
+}
+
+/* Message Styling (Optional if using HTML) */
+/*
+.chat-message {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+.user-message {
+    background-color: #DCF8C6;
+    text-align: right;
+    margin-left: auto;
+}
+
+.assistant-message {
+    background-color: #F1F0F0;
+    text-align: left;
+    margin-right: auto;
+}
+*/
+
+/* Responsive Design */
+@media only screen and (max-width: 600px) {
+    img {
+        width: 100% !important;
+        height: auto !important;
+    }
+}
